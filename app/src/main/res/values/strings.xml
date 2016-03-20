@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Project-Y</string>
+    <string name="app_name">Quiz</string>
+    <string name="chooseCategory">Wähle eine Kategorie!</string>
 </resources>
