@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.teamlimo.project_y.R;
+import com.teamlimo.project_y.highscore.HighscoreActivity;
 import com.teamlimo.project_y.quiz.QuizActivity;
 
 public class MainMenuActivity extends AppCompatActivity implements IMainMenuView {
@@ -40,6 +41,6 @@ public class MainMenuActivity extends AppCompatActivity implements IMainMenuView
 
     @Override
     public Object createHighscoreView() {
-        return new QuizActivity();
+        return new HighscoreActivity();
     }
 }
